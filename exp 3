@@ -1,0 +1,141 @@
+
+
+EXP 3
+
+FIND IF NUM IS POSITIVE OR 
+Shresht
+23070123077
+#include <iostream>
+Using namespace std;
+
+int main() {
+    int num;
+    cout << "Enter a number: ";
+    cin >> num;
+
+    if (num > 0) {
+        cout << "The number is positive." << endl;
+    } else if (num < 0) {
+        cout << "The number is negative." << endl;
+    } else {
+        cout << "The number is zero." << endl;
+    }
+
+    return 0;
+}
+
+
+OUTPUT-
+Enter a number: 5
+The number is positive.
+
+
+=== Code Execution Successful ===
+
+
+
+
+FIND CORORDINATES ARE IN WHICH QUADRANT
+Shresht
+23070123077
+#include <iostream>
+using namespace std;
+
+int main(){
+    
+    int x , y;
+    
+    cout << " Enter Coordinates" << endl;
+    cin >> x >> y;
+    
+    if (x > 0 and y > 0){
+        cout << "Quadrant 1" << endl;
+    }
+    else if (x < 0 and y > 0){
+        cout << "Quadrant 2" << endl;
+    }
+    else if (x < 0 and y < 0){
+        cout << "Quadrant 3" << endl;
+    }
+    else{
+        cout << "Quadrant 4" << endl;
+    }
+    
+    return 0;
+}
+
+OUTPUT-
+Enter Coordinates
+4 5
+Quadrant 1
+
+
+=== Code Execution Successful ===
+
+
+
+
+STUDENT GRADE
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Write C++ code here
+    int m1, m2, m3,marks,pmark;
+    cout<<"Enter marks of 3 subjects: ";
+    cin>> m1>>m2>>m3;
+    marks = (m1+m2+m3)/3;
+    cout<<"marks are:"<<marks<<endl;
+    if(marks>90){
+        cout<<"o grade";
+    }
+    else if (marks>70){
+        cout<<"a grade";
+    }
+    else if (marks>50){
+        cout<<"b grade";
+    }
+    else{
+        cout<<"fail";
+    }
+    return 0;
+}
+
+
+OUTPUT
+Enter marks of 3 subjects: 30 90 80
+marks are:66
+b grade
+
+=== Code Execution Successful ===
+
+
+
+REVERSE PRN
+  #include <iostream>
+using namespace std;
+
+int main(){
+    
+    int prn , num;
+    
+    cout << "Enter the number " << endl;
+    cin >> prn;
+    
+    while(prn > 0){
+        num = prn % 10;
+        prn = prn / 10;
+        cout << num;
+    }
+    
+    return 0;
+}
+
+
+
+OUTPUT
+Enter the number 
+23077
+77032
+
+=== Code Execution Successful 
