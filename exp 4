@@ -1,0 +1,69 @@
+L.Shresht
+23070123077
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 3; // 101
+    int b = 4; // 011
+
+    // Bitwise AND
+    int bitwise_and = a & b;
+    int bitwise_or = a | b;
+    int bitwise_xor = a^b;
+    int bitwise_not = -a;
+    int left_shift = a<<2;
+    int right_shift = a>>2;
+    
+
+    cout << " AND: " << bitwise_and << endl;
+    cout<< "OR :"<<bitwise_or<<endl;
+    cout<<"XOR :"<<bitwise_xor<<endl;
+    cout<<"NOT :"<<bitwise_not<<endl;
+    cout<<"left shift :"<<left_shift<<endl;
+    cout<<"right shift :"<<right_shift<<endl;
+
+    return 0;
+}
+
+OUTPUT
+AND: 0
+OR :7
+XOR :7
+NOT :-3
+left shift :12
+right shift :0
+
+
+=== Code Execution Successful ===
+
+
+
+
+BITWISE
+#include<iostream>
+using namespace std;
+int main()
+{
+    int bit_to_be_set, i=5;
+    int bit_to_be_reset;
+    int set, reset;
+    cout<<"Enter the bit to be changed: "<<endl;
+    cin>>bit_to_be_reset;
+    set = i|(1<<bit_to_be_reset);
+    // reset = i&(~(1<<bit_to_be_reset));
+    cout<<"Set: "<<set<<endl;
+}
+
+
+OUTPUT
+Enter the bit to be changed: 
+5
+Set: 37
+
+
+=== Code Execution Successful ===
+
+
+
