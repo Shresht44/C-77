@@ -18,3 +18,11 @@ int main(){
 
 
 }
+
+Enter Integer
+5
+Value of Variable is 5 Size is 4
+
+--------------------------------
+Process exited after 4.276 seconds with return value 0
+Press any key to continue . . .
