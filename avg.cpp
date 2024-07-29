@@ -25,3 +25,18 @@ int main(){
     }
     return 0;
 }
+
+
+
+Marks Average
+Enter marks of subjects
+70
+80
+90
+80
+Your Average is 80
+Your grade is C
+
+--------------------------------
+Process exited after 6.612 seconds with return value 0
+Press any key to continue . . .
