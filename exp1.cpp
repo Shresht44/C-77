@@ -36,9 +36,11 @@ int main() {
 	cin >> num2;
 	float divide = num1 / num2;
 	cout << "Product is " << divide << endl;
+return 0;
+}
 
 
-	add(+) Calculator
+	/*add(+) Calculator
 Enter first number
 5
 Enter second number
@@ -65,7 +67,7 @@ Product is 4
 
 --------------------------------
 Process exited after 20.25 seconds with return value 0
-Press any key to continue . . .
+Press any key to continue . . .*/
 
-    return 0;
-}
+   
+
